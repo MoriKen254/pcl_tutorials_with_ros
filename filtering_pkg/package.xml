@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>filtering_pkg</name>
+  <version>1.0.0</version>
+  <description>The filtering package</description>
+
+  <maintainer email="masamorobo@gmail.com">MoriKen</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>pcl_conversions</depend>
+  <depend>pcl_msgs</depend>
+  <depend>pcl_ros</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tf</depend>
+
+  <test_depend>roslaunch</test_depend>
+
+</package>
